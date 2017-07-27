@@ -4,7 +4,7 @@ import Data.List (elemIndex)
 
 -- Exercise 1
 added :: Maybe Integer
-added = (+ 3) <$> (lookup 3 $ zip [1 .. 3] [4 .. 6])
+added = (+ 3) <$> lookup 3 (zip [1 .. 3] [4 .. 6])
 
 -- Exercise 2
 y :: Maybe Integer
